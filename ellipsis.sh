@@ -6,6 +6,7 @@
  pkg.install() {
      fs.link_files $PKG_PATH
      git submodule update --init --recursive
+     tmux -c ~/.tmux/plugins/tundle/scripts/install_plugins.sh
  }
 
 # pkg.push() {
@@ -15,6 +16,7 @@
  pkg.pull() {
      git.pull
      git submodule update --recursive
+     tmux -c ~/.tmux/plugins/tundle/scripts/install_plugins.sh
  }
 
 # pkg.installed() {
