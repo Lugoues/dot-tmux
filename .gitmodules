@@ -1,0 +1,3 @@
+[submodule "tmux/plugins/tundle"]
+	path = tmux/plugins/tundle
+	url = https://github.com/chilicuil/tundle
