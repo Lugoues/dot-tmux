@@ -7,6 +7,8 @@
      fs.link_files $PKG_PATH
      git submodule update --init --recursive
      tmux -c ~/.tmux/plugins/tundle/scripts/install_plugins.sh
+
+     tic -x ~/.tmux/tmux.terminfo
  }
 
 # pkg.push() {
